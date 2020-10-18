@@ -1,2 +1,2 @@
 # R3-SoftwareTraining-AlecLin
-Training Module 1 for R3
+Software Training Module 1 for R3
