@@ -7,7 +7,7 @@ Software Training Module 1 for R3
 Arduino controlled motor driver circuit.
 
 This circuit uses an Arduino Uno to take input from the DIP switch and ouput to the L293D motor driver IC.  
-- When no DIP switch is activated, the Arduino will send a stop signal to all 4 input pins of the IC.  
+- When no DIP switch is activated, the Arduino will send a stop signal to all 4 input pins of the IC  
   
 - When DIP switch 1 is activated the Arduino will send a signal proportional to the potentiometer value to input pins 1 and 4 of the IC  
   
