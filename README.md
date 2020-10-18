@@ -16,8 +16,13 @@ This circuit uses an Arduino Uno to take input from the DIP switch and ouput to 
 - When DIP switch 3 is activated the Arduino will send a signal proportional to the potentiometer value to input pins 1 and 3 of the IC  
   
 - When DIP switch 4 is activated the Arduino will send a signal proportional to the potentiometer value to input pins 2 and 4 of the IC
+  
+### Notes
+In the simulation and design a simplification has been made. Motors spinning with a positive RPM is assumed to be moving in the forward direction. This is done with the knowledge that motors facing opposite directions with the same RPM would actually result in spinning the vehicle.
+
 # Software
 
-#### Motor Speed Calculation
+### Motor Speed Calculation
 <img src="https://render.githubusercontent.com/render/math?math=\dfrac{Potentiometer Reading}{Potentiometer Max Value}\times 255 = PWM Value">
   
+The PWM output value is determined by dividing the analogRead value of the potentiometer by the maximum analogRead value of the potentiometer, then multiply the decimal percentage by 255 (The maximum range of PWM).
