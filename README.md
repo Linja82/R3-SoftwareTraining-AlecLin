@@ -25,4 +25,4 @@ In the simulation and design a simplification has been made. Motors spinning wit
 ### Motor Speed Calculation
 <img src="https://render.githubusercontent.com/render/math?math=\dfrac{Potentiometer Reading}{Potentiometer Max Value}\times 255 = PWM Value">
   
-The PWM output value is determined by dividing the analogRead value of the potentiometer by the maximum analogRead value of the potentiometer, then multiplying the decimal percentage by 255(The maximum range of PWM).
+The PWM output value is determined by dividing the analogRead value of the potentiometer by the maximum analogRead value of the potentiometer to get a decimal percentage.The decimal percentage is then multiplied by 255(The maximum range of PWM).
