@@ -19,5 +19,5 @@ This circuit uses an Arduino Uno to take input from the DIP switch and ouput to 
 # Software
 
 ## ## Motor Speed Calculation
-<img src="https://render.githubusercontent.com/render/math?math=\dfrac{Potentiometer_Reading}{Potentiometer_Max_Value}\times 255 = PWM_Value">
+<img src="https://render.githubusercontent.com/render/math?math=\dfrac{Potentiometer\hspace(1mm)Reading}{Potentiometer_Max_Value}\times 255 = PWM_Value">
   
