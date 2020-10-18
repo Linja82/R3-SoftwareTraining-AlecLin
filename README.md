@@ -1,4 +1,4 @@
-# R3 SoftwareTraining Alec Lin
+# R3 Software Training Alec Lin
 Software Training Module 1 for R3
 
 # Hardware
