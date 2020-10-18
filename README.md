@@ -15,5 +15,5 @@ This circuit uses an Arduino Uno to take input from the DIP switch and ouput to 
   
 - When DIP switch 3 is activated the Arduino will send a signal proportional to the potentiometer value to input pins 1 and 3 of the IC  
   
-- When DIP switch 4 is activated the Arduino will send a signal proportional to the potentiometer value to input pins 2and 4 of the IC
+- When DIP switch 4 is activated the Arduino will send a signal proportional to the potentiometer value to input pins 2 and 4 of the IC
 # Software
