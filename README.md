@@ -2,7 +2,7 @@
 Software Training Module 1 for R3
 
 # Hardware
-[Tinkercad Circuit](https://www.tinkercad.com/things/4NrpbiozkF0)
+[Link to Tinkercad Circuit/Simulation](https://www.tinkercad.com/things/4NrpbiozkF0)
 ![alt text](https://github.com/Linja82/R3-SoftwareTraining-AlecLin/blob/main/Images/Tinkercad%20Software%20Training%201.jpg)
 Arduino controlled motor driver circuit.
 
@@ -18,7 +18,7 @@ This circuit uses an Arduino Uno to take input from the DIP switch and ouput to 
 - When DIP switch 4 is activated the Arduino will send a signal proportional to the potentiometer value to input pins 2 and 4 of the IC
   
 ### Notes
-In the simulation and design a simplification has been made. Motors spinning with a positive RPM is assumed to be moving in the forward direction. This is done with the knowledge that motors facing opposite directions with the same RPM would actually result in spinning the vehicle.
+In the simulation and design a simplification has been made. Motors spinning with a positive RPM are assumed to be moving in the forward direction. This is done with the knowledge that motors facing opposite directions with the same RPM would actually result in spinning the vehicle.
 
 # Software
 
