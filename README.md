@@ -17,6 +17,17 @@ This circuit uses an Arduino Uno to take input from the DIP switch and ouput to 
   
 - When DIP switch 4 is activated the Arduino will send a signal proportional to the potentiometer value to input pins 2 and 4 of the IC
   
+### Wiring
+- D2: DIP Switch 1
+- D3: L293D Input 1
+- D4: DIP Switch 2
+- D5: L293D Input 2
+- D7: DIP Switch 3
+- D8: DIP Switch 4
+- D9: L293D Input 3
+- D10: L293D Input 4
+- A0: 250K Potentiometer
+  
 ### Notes
 In the simulation and design a simplification has been made. Motors spinning with a positive RPM are assumed to be moving in the forward direction. This is done with the knowledge that motors facing opposite directions with the same RPM would actually result in the motors spinning in opposite directions and rotating the vehicle.
 
